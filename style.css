@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000; /* Background hitam */
+    color: #f4f4f9; /* Warna teks terang */
+}
+
+header {
+    background-color: #7900B7; /* Ungu */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Pomodoro Timer Styles */
+#pomodoro {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #333; /* Background gelap untuk card */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.timer {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#time-display {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f4f4f9; /* Teks terang */
+}
+
+button {
+    background-color: #7900B7; /* Ungu */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #7900B7; /* Ungu lebih terang */
+}
+
+.settings label {
+    display: block;
+    margin: 5px 0 3px;
+    color: #f4f4f9; /* Teks terang */
+}
+
+.settings input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* To-Do List Styles */
+#todo-list {
+    padding: 15px;
+    background: #333; /* Background gelap untuk card */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#todo-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #222; /* Background input gelap */
+    color: #f4f4f9; /* Teks terang */
+}
+
+#add-button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    background-color: #7900B7; /* Ungu */
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#todo-items {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-items li {
+    padding: 10px;
+    background: #444; /* Warna item lebih terang */
+    border: 1px solid #555; /* Border abu gelap */
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f4f4f9; /* Teks terang */
+}
+
+#todo-items li.completed {
+    text-decoration: line-through;
+    color: #aaa; /* Teks warna abu */
+}
